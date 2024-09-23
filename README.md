@@ -29,25 +29,20 @@ The system operates using the TCP protocol to establish a connection between the
     cd tcp-chat-system
     ```
 
-2. Install dependencies (if any are used, e.g., for logging):
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Usage
 
 1. **Start the Server**:
     The server will listen for incoming client connections.
 
     ```bash
-    python server.py
+    python Receiver.py
     ```
 
 2. **Run the Client**:
     Multiple clients can connect to the server by specifying the server's IP address and port.
 
     ```bash
-    python client.py
+    python Sender.py
     ```
 
 ### Example
@@ -71,8 +66,8 @@ The system operates using the TCP protocol to establish a connection between the
 ```bash
 tcp-chat-system/
 │
-├── server.py         # The TCP server script
-├── client.py         # The TCP client script
+├── Receiver.py         # The TCP server script
+├── Sender.py         # The TCP client script
 ├── README.md         # Project documentation
 ```
 
