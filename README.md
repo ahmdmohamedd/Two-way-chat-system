@@ -25,8 +25,8 @@ The system operates using the TCP protocol to establish a connection between the
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/tcp-chat-system.git
-    cd tcp-chat-system
+    git clone https://github.com/ahmdmohamedd/Two-way-chat-system.git
+    cd Two-way-chat-system
     ```
 
 ## Usage
