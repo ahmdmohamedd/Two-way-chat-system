@@ -1,4 +1,4 @@
-TCP Two-Way Chat System
+##TCP Two-Way Chat System
 
 This repository contains a simple two-way chat system implemented using TCP (Transmission Control Protocol). The system consists of a server and multiple clients that can exchange messages in real-time. The chat system demonstrates the basics of socket programming in Python.
 
